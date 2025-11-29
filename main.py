@@ -41,4 +41,4 @@ async def get_euron_data():
     async for document in cursor:
         iterms.append(euron_helper(document))
     return iterms
-
+# https://api-mongodb-2-f3by.onrender.com #
